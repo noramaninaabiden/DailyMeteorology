@@ -1,0 +1,10 @@
+secrets/
+*.duckdb
+dbt_packages/
+target/
+logs/
+.env
+__pycache__/
+venv/
+test.sql
+config.py

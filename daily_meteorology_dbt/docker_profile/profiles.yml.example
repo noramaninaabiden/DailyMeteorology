@@ -1,0 +1,14 @@
+myregionalincome:
+  outputs:
+    dev:
+      type: duckdb
+      path: '../my_regional_income.duckdb'
+      threads: 1
+    prod:
+      type: bigquery
+      method: oauth
+      project: my-regional-income-504714
+      dataset: gold
+      threads: 4
+      location: US
+  target: dev

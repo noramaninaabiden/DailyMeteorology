@@ -1,0 +1,15 @@
+daily_meteorology_dbt:
+  outputs:
+    dev:
+      type: duckdb
+      path: /opt/portfolio/DailyMeteorology/daily_meteorology.duckdb
+      threads: 4
+    
+    prod:
+      type: bigquery
+      method: oauth
+      project: daily-meteorology
+      dataset: gold
+      threads: 4
+      location: US
+  target: dev

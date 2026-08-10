@@ -1,0 +1,8 @@
+version: 2
+
+sources:
+  - name: bronze
+    schema: main
+    tables:
+      - name: bronze_weather_daily
+      - name: bronze_air_quality_hourly
