@@ -5,7 +5,7 @@ A daily-refreshing data pipeline tracking weather and air quality across 8 citie
 a one-off historical load.
 
 ## Live dashboard
-[link once deployed]
+[View on Streamlit Community Cloud](https://dailymeteorology-yksuxvbwu2avrezf72ztec.streamlit.app/)
 
 ## Architecture
 - **Extract:** Open-Meteo API (archive endpoint for backfill, forecast endpoint for
